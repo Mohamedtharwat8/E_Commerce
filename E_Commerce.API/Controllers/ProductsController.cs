@@ -4,8 +4,14 @@ namespace E_Commerce.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class ProductsController : ControllerBase
     {
+
+        //Get all Products
+        //Get product By Id
+        //Get all types
+        //Get all brands
+
         private static readonly string[] Summaries =
         [
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
